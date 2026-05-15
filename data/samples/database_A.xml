@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Base de données A : référentiel théorique des pièces -->
+<pieces>
+    <piece id="P001">
+        <reference>CFM56-7B-FAN-001</reference>
+        <designation>Aube de soufflante</designation>
+        <vie_limite_heures>20000</vie_limite_heures>
+        <vie_limite_cycles>15000</vie_limite_cycles>
+        <date_derniere_inspection>2024-03-15</date_derniere_inspection>
+        <statut>actif</statut>
+    </piece>
+    <piece id="P002">
+        <reference>CFM56-7B-HPT-002</reference>
+        <designation>Aube de turbine HP</designation>
+        <vie_limite_heures>12000</vie_limite_heures>
+        <vie_limite_cycles>10000</vie_limite_cycles>
+        <date_derniere_inspection>2024-01-10</date_derniere_inspection>
+        <statut>actif</statut>
+    </piece>
+    <piece id="P003">
+        <reference>CFM56-7B-HPC-003</reference>
+        <designation>Compresseur HP étage 3</designation>
+        <vie_limite_heures>25000</vie_limite_heures>
+        <vie_limite_cycles>18000</vie_limite_cycles>
+        <date_derniere_inspection>2024-05-20</date_derniere_inspection>
+        <statut>actif</statut>
+    </piece>
+    <piece id="P004">
+        <reference>CFM56-7B-OIL-004</reference>
+        <designation>Filtre à huile principal</designation>
+        <vie_limite_heures>500</vie_limite_heures>
+        <vie_limite_cycles>300</vie_limite_cycles>
+        <date_derniere_inspection>2024-06-01</date_derniere_inspection>
+        <statut>actif</statut>
+    </piece>
+</pieces>

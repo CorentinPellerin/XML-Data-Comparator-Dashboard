@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Base de données B : données terrain (relevés réels) -->
+<pieces>
+    <piece id="P001">
+        <reference>CFM56-7B-FAN-001</reference>
+        <heures_reelles>19800</heures_reelles>
+        <cycles_reels>14900</cycles_reels>
+        <date_inspection>2024-03-15</date_inspection>
+        <operateur>Jean Dupont</operateur>
+    </piece>
+    <piece id="P002">
+        <reference>CFM56-7B-HPT-002</reference>
+        <heures_reelles>1</heures_reelles>
+        <cycles_reels>1</cycles_reels>
+        <date_inspection>2024-01-10</date_inspection>
+        <operateur>Marie Martin</operateur>
+    </piece>
+    <piece id="P003">
+        <reference>CFM56-7B-HPC-003</reference>
+        <heures_reelles>24100</heures_reelles>
+        <cycles_reels>17800</cycles_reels>
+        <date_inspection>2024-05-20</date_inspection>
+        <operateur>Paul Bernard</operateur>
+    </piece>
+    <piece id="P004">
+        <reference>CFM56-7B-OIL-004</reference>
+        <heures_reelles>520</heures_reelles>
+        <cycles_reels>310</cycles_reels>
+        <date_inspection>2024-06-01</date_inspection>
+        <operateur>Jean Dupont</operateur>
+    </piece>
+</pieces>
