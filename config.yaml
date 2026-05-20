@@ -1,0 +1,43 @@
+# ============================================================
+# config.yaml — Paramètres globaux du comparateur XML
+# Modifie ce fichier pour adapter l'outil à ton besoin
+# ============================================================
+
+# Fichiers d'entrée par défaut
+sources:
+  database_A: "data/samples/database_A.xml"
+  database_B: "data/samples/database_B.xml"
+
+# Clé d'identifiant unique utilisée pour croiser les deux XML
+cle_jointure: "reference"   # Le champ commun entre A et B
+
+# Champs à comparer et leurs règles
+comparaisons:
+  - champ_A: "vie_limite_heures"
+    champ_B: "heures_reelles"
+    label: "Heures de vie"
+    alerte_si: "B > A"          # Alerte si valeur réelle dépasse la limite
+    seuil_avertissement: 0.90   # Avertissement à 90% de la limite
+
+  - champ_A: "vie_limite_cycles"
+    champ_B: "cycles_reels"
+    label: "Cycles de vie"
+    alerte_si: "B > A"
+    seuil_avertissement: 0.90
+
+# Configuration des alertes
+alertes:
+  niveaux:
+    critique: "DÉPASSEMENT LIMITE"   # B > A
+    avertissement: "PROCHE LIMITE"   # B > A * seuil
+    ok: "CONFORME"
+
+  export_csv: true
+  export_json: true
+  dossier_export: "exports/"
+
+# Serveur Flask
+serveur:
+  host: "127.0.0.1"
+  port: 5000
+  debug: true
